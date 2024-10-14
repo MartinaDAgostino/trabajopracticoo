@@ -1,0 +1,36 @@
+
+body{background-color: lavender;}
+header{display: flex; flex-wrap: wrap;justify-content: space-between;align-items: center;padding: 20px;}
+header.logo{flex: 1;}
+header .txt{flex:2; text-align: center;}
+header .iconos{flex: 1; text-align: right;}
+footer{display: inline-flex; flex-wrap: wrap;justify-content: space-between; align-items: center; padding: 20px; border-top: 1px ;}
+.footer-contenedor{display: flex; justify-content: space-between; align-items: flex-start; max-width: 1200px;margin: 0 auto;padding: 0 15px;}
+.grape{background-color: thistle;;}
+.pink{background-color: pink;}
+.whatsapp_float{ position:fixed; bottom: 20px; right: 50px; z-index: 50; width:350px; height: 400px;}
+h1{text-align: center;font-size: 40px;position: absolute;left: 20%; top: 15%;margin-inline-end: 0px; margin-top: 8px;}
+.imagen{width: 300px;height: 420px;margin-left: 480px;}
+.video {width: 500px; height: 250px;}
+.iconos{display: flex;justify-content: flex-end;gap: 8px;}
+.iconos a img{width: 50px;height: 50px;}
+.iconos{flex-wrap: wrap;}
+h2{text-decoration: underline;font-size: 35px;}
+h3{text-decoration: underline;font-size: 35px;}
+h4{text-decoration: underline;font-size: 25px;}
+h5{text-decoration: underline;font-size: 25px;}
+.txt{font-size: 45px; text-transform: uppercase;}
+footer.social-icons li a:hover{color:#24262b; background-color: #ffffff; text-align: center;}
+.social-icons{list-style-image: none;display: flex; justify-content: flex-end; text-align:center;}
+.social-icons a{width: 50px; height: 50px; text-align: center;}
+
+.maps{background-image: url(fotografia/san miguel.png); width: 250px; height:250px; display: flex;justify-content: space-between;}
+.promocion{font-size:25px; margin-left: 400px;}
+.recetas-similares{display: flex; justify-content: space-around;margin: 20px;padding: 0;}
+.recetas-similares a{ text-decoration: none;color: black; padding: 10px 20px; border-radius: 10px; font-size: 20px;}
+.recetas-similares a hover{background-color: pink;}
+.marca{background-image: url(fotografia/marca.png); width: 250px; height:200px margin-top:15px; display: flex;
+    justify-content: flex-start;}
+    @media (max-width: 768px) {
+	header, footer {
+		flex-direction: column; }
